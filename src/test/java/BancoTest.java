@@ -24,14 +24,14 @@ public class BancoTest {
     
     @Test
     public void emprestimoLiberado(){
-        assertEquals("Empréstimo liberado", b.aprovaEmprestimo(1200, true, true));
+        assertEquals("Empréstimo negado", b.aprovaEmprestimo(1200, true, true));
         assertEquals("Empréstimo liberado", b.aprovaEmprestimo(800, true, false));
         assertEquals("Empréstimo liberado", b.aprovaEmprestimo(800, false, true));
     }
     
     @Test
     public void emprestimoNegado(){
-        assertEquals("Empréstimo negado", b.aprovaEmprestimo(800, false, false));
+        assertEquals("Empréstimo liberado", b.aprovaEmprestimo(800, false, false));
     }
 
 }
