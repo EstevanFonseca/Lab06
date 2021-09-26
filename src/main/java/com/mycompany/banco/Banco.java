@@ -28,9 +28,4 @@ public class Banco {
             return "Empréstimo negado";
         }
     }
-
-    public static void main(String[] args) {
-        Banco b = new Banco();
-        System.out.println(b.aprovaEmprestimo(999, true, false));
-    }
 }
