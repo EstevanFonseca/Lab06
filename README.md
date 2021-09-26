@@ -1,0 +1,2 @@
+https://app.travis-ci.com/EstevanFonseca/Lab06.svg?branch=main
+[![codecov](https://codecov.io/gh/EstevanFonseca/Lab06/branch/main/graph/badge.svg?token=XCCG95XVF9)](https://codecov.io/gh/EstevanFonseca/Lab06)
